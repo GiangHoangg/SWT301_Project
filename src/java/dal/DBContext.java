@@ -377,7 +377,7 @@ public class DBContext {
         
         while(rs.next()){
             int number = rs.getInt(1);
-            return number;
+            
         }
         return 0;
     }
